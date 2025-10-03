@@ -113,9 +113,9 @@ with st.expander("Informace o aplikaci a použitých technologiích", expanded=F
 
 # --- Informace o autorovi tisku (uživatel vyplní) ---
 st.subheader('Údaje pro tisk / PDF')
-author_name = st.text_input('Jméno autora (pro PDF)', value='')
-author_contact = st.text_input('Kontakt autora (email/telefon)', value='')
-additional_notes = st.text_area('Další poznámky (objeví se v PDF)', value='')
+author_name = st.text_input('Jméno autora (pro PDF)', value='Soňa Pangrácová')
+author_contact = st.text_input('Kontakt autora (email/telefon)', value='278216@vutbr.cz')
+additional_notes = st.text_area('Další poznámky (objeví se v PDF)', value='Použité technologie: Streamlit, NumPy, Matplotlib, ReportLab')
 
 # --- Funkce pro export do PDF ---
 
